@@ -1,0 +1,12 @@
+pt-br:
+  hello: "Ola mundo"
+
+activerecord: 
+  errors:
+     models:
+      article:
+        attributes:
+           title:
+             blank: "nao pode ficar em branco"
+           body: 
+             blank: "nao pode ficar em branco"

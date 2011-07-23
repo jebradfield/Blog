@@ -1,0 +1,9 @@
+<h1>Listing articles</h1>
+
+<div id="articles">
+  <%= render @articles %>
+</div>
+
+<br />
+
+
