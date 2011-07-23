@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.9'
 gem 'jquery-rails', '>= 1.0.3'
 gem 'tlsmail'
+gem 'acts-as-taggable-on'
 
 
 # Bundle edge Rails instead:
