@@ -1,5 +1,5 @@
 user = User.create :email => 'mary@example.com', 
-	           :password => 'guessit'
+	           :password => 'guessit',
                    :password_confirmagtion => 'guessit'
 
 Category.create [{:name => 'Programming'},
@@ -8,7 +8,7 @@ Category.create [{:name => 'Programming'},
 		 {:name => 'Music'},
 		 {:name => 'TV'}]
 
-user.articles.create :title => 'Advanced Active Record'
+user.articles.create :title => 'Advanced Active Record',
              :body=>"Models need torelate to each other. In the real world, ..",
              :published_at => Date.today
 user.articles.create :title => 'One-to-many associations',
